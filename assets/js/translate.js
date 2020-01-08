@@ -22,4 +22,5 @@ function myTranslate() {
       .replace(/\(/g, "9").replace(/\（/g, "9").replace(/\)/g, "0")
       .replace(/\）/g, "0");
       document.getElementById("myNumber").value=t;
+      
 }
